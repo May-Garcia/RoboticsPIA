@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Our body System robot</title>
+ 
+   
+    
+<style>
+
+    body {
+        background-color: #ecd6c0;
+        text-align: center;
+    }
+
+
+.ttulo {
+    color: #a68069;
+    font-size: 90px;
+    font-family: 'Baskerville', serif; 
+}
+
+
+.homepage {
+    font-size: 40px;
+    font-family: 'Courier New', monospace; 
+    margin-top: 150px;
+}
+
+#parrafo {
+    font-size: 30px;
+    margin-bottom: 250px;
+    font-family: Georgia;
+}
+
+.indice1 {
+    font-size: 50px;
+    color: #735945;  
+}
+
+#research {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+}
+
+
+h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+nav a {
+    margin: 10px;
+    text-decoration: none; 
+    color: #69503c;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: #a68069;
+    border-color: #a68069;
+}
+
+.Functions {
+    font-size: 30px;
+    color: #553d2a;
+}
+
+.Movement {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+.Organs {
+    font-size: 30px;
+    color: #553d2a;
+}
+
+.types {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+#Problems {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.health {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+.imagesiu {
+    border: 5px solid #735945;
+    border-radius: 10px; 
+    margin-top: 20px;
+}
+
+.image2 {
+    border: 5px solid #735945;
+    border-radius: 10px; 
+    margin-top: 80px;
+}
+
+#Robotic {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.solution {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none; 
+    color: #69503c;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: #a68069;
+    border-color: #a68069;
+}
+
+footer {
+    background-color: #735945;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.image1 {
+    border: 5px solid #735945;
+    border-radius: 10px;
+    width: 200px; 
+    height: auto;
+}
+
+.each {
+    font-size: 30px;
+    color: #553d2a;
+}
+
+.eachy {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+.protype {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+#programming {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.progra {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+.chuchito {
+    font-size: 30px;
+    color: #553d2a;
+    margin-top: 50px;
+}
+
+.videorobo {
+    font-size: 30px;
+    color: #553d2a;
+    margin-top: 50px;
+}
+
+#Journey {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+#conclusions {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+#Team {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.team4 {
+    font-size: 30px;
+    color: #553d2a;
+    margin-top: 50px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #735945;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f5e4d7;
+}
+
+.group {
+    font-size: 30px;
+    color: #553d2a;
+    margin-top: 50px;
+}
+
+.talk {
+    font-size: 25px;
+    font-family: Georgia;
+    margin-bottom: 100px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+    <h1 class="ttulo"> Our body System Robot</h1>
+
+
+<div class="indice">
+    <p class="indice1"> Index </p>
+    <nav>
+        <a href="#parrafo">Welcome </a> |
+        <a href="#research">Research </a> |
+        <a href="#Problems">Health Problems </a> |
+        <a href="#Robotic">Robotic Solution </a> |
+        <a href="#programming">Programming </a> |
+        <a href="#Journey">Journey </a> |
+        <a href="#conclusions">Conclusions </a> |
+        <a href="#Team">Team </a> |
+    </nav>
+</div>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGNMtVOLPNLfPaKJxGRpTvXocZyJzMNE30T73iyghZX5kkd2qOapdTkHwRv0bWX4ggX0&usqp=CAU"
+ width="200" height="200" class="image2">
+
+
+<h2 class="homepage"> <strong> Home Page </strong> </h2>
+
+
+<p id="parrafo"> Hello! <br> 
+<strong> Welcome to the website of team 4 of group 218! </strong> <br>
+The purpose of this website is to share everything <br>
+we have researched 
+and the project we planned for a specific system issue we chose. <br>
+The system selected for this project is the muscular system. The <br>
+muscular system is a network of specialized tissues, providing the <br>
+strength and mobility necessary for various functions of the human <br>
+body. Composed of more than 600 muscles, this system is responsible <br>
+for bodily activities. Robotics will be worked together with biology <br>
+to create a robot that can solve a problem in the muscular system, a <br>
+robot with fast and efficient medical assistance.
+</p>
+
+
+
+
+<h2 id="research"> Research Data </h2>
+<h3 class="Functions"> Functions and Importance </h3>
+<p class="Movement">  
+    <strong> Movement: </strong> 
+    Muscles generate force to perform voluntary and involuntary movements <br>
+     such as walking and running and even breathing and blinking, the muscular <br>
+      system allows interaction with the environment and the internal functioning of the body. <br>
+      <strong> Support: </strong>
+      Muscles stabilize the body and allow it to mantain posture during rest and movement <br>
+      <strong> Heat production: </strong>
+      Heat is generated as a metabolic byproduct. Maintains a constant body temperature, <br>
+      especially in cold weather or during exercise. <br>
+      <strong> Circulartion and Internal Functions:</strong>
+      The cardiac muscle pumps blood constantly, ensuring oxygenation of the tissues. <br>
+       Smooth muscles of internal organs, such as the intestines, enable essential <br>
+        processes such as bladder emptying. 
+        <strong> Protection: </strong>
+        Muscles act as a barrier that cushions shocks and protects vital organs. <br>
+        They also contribute to the stabilization of joints, reducing the risk of injury. 
+        <br>
+</p>
+
+
+
+<img src="https://images.unsplash.com/photo-1615505368758-8a3af2a4c379?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+ width="500" height="300" class="imagesiu">
+
+
+<h3 class="Organs"> Organs and their functions </h3>
+<p class="types"> 
+    <strong> Skeletal Muscles: </strong>
+    These are the muscles that allow voluntary movements. They are attached to the bones and <br>
+     are responsible for actions such as walking, running, and lifting objects. <br>
+     <strong> Cardiac Muscle: </strong>
+     This is the muscle of the heart. It is responsible for pumping blood throughout the body. <br>
+      The cardiac muscle is involuntary and works continuously without conscious control. <br>
+      <strong> Smooth Muscles: </strong>
+      These muscles are found in the walls of internal organs, such as the intestines and blood vessels. <br>
+       They are responsible for involuntary movements, such as digestion and blood circulation. <br>
+</p>
+
+<div class="image-container"> 
+    <img src="https://plus.unsplash.com/premium_photo-1722707492894-2839a324624e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image 1" class="image1">
+    <img src="https://images.unsplash.com/photo-1715529282062-773305ae0178?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image 2" class="image1">
+    <img src="https://images.unsplash.com/photo-1729339983496-bf9650ea140f?q=80&w=3076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image 3" class="image1">
+</div>
+
+<p> For more information please visit here: 
+    <a href="https://my.clevelandclinic.org/health/body/21887-muscle" target="_blank"> Cleveland Clinic  </a>
+</p>
+
+
+<h2 id="Problems"> Health Problems </h2>
+<p class="health">
+   <strong> Cramp: </strong>
+   is an involuntary, intense and painful contraction of several groups of muscle fibers <br>
+    due to an exaggerated effort on these fibers. It usually lasts a short time; it may be <br>
+    because the muscle is not well warmed up and dehydration<br>
+    <strong> Contracture: </strong>
+    It is a muscular discomfort that is accompanied by pain on palpation over the damaged <br>
+     muscle and difficulty in its movement. It appears suddenly and may last several days. <br>
+        <strong> Strain: </strong>
+        It is an exaggerated stretching of the muscle without it breaking; it is the <br>
+         well-known like pull. It occurs in muscles taken to the limit of their elasticity. <br>
+            <strong> Concussion: </strong>
+            It occurs when the muscle is hit or is hit against a rigid structure. <br>
+            They are very frequent in contact sports. It produces diffuse pain and inflammation. <br>
+            <strong> Muscle rupture: </strong>
+            occurs immediately, and the skin becomes red and hot. The pain is intense, and the <br>
+            sinking of the affected area can be appreciated. Surgery is required. <br>
+    </p>
+<h3 class="each"> Solutions: </h3>
+<p class="eachy">
+    <strong> Cramp: </strong>
+    To relieve cramps, start with simple remedies like stretching the affected muscle, applying <br> 
+    heat or cold, and taking over-the-counter pain relievers <br>
+    <strong> Contracture: </strong>
+    To treat contractures, rest the affected muscle, apply heat or cold, and take anti-inflammatory <br>
+     medications. Gentle stretching and physical therapy may also help. <br>
+    <strong> Strain: </strong>
+    For strains, rest the affected muscle, apply ice to reduce swelling, and take pain relievers. <br>
+     Gradual stretching and strengthening exercises can aid recovery. <br>
+    <strong> Concussion: </strong>
+    For muscle concussions, rest the affected area, apply ice to reduce swelling, and take <br>
+     pain relievers. Gentle stretching and physical therapy may be necessary for recovery. <br>
+    <strong> Muscle rupture: </strong>
+    For muscle ruptures, immediate medical attention is crucial. Treatment may involve <br>
+     immobilization, physical therapy, and in severe cases, surgery. <br>
+</p>
+
+    <h2 id="Robotic"> Robotic solution </h2>
+
+    <p class="solution"> 
+        What our prototype will do to help with these problems is that, when our robot <br>
+        detects that a person has suffered a cramp or some other problem in their muscles, <br>
+         it will reach the affected area and apply cooling spray and then begin to give a small <br>
+          massage to relax the area.
+    </p>
+    <img src="images/proto.jpeg" alt="Robot Prototype" width="700" height="500" class="image1">
+    <p class="protype">
+        Both sticks protruding from the robot are in charge of massaging the affected area. <br>
+         The rear part is the one that will release the cooling spray on the area. <br> 
+         The base was designed so that it can rotate without problems.
+    </p>
+
+    <h2 id="programming"> Programming </h2>
+    <p class="progra">
+        During the last stage, we did not have enough time to record and take pictures <br>
+     of the programming, so the programming that was done in this stage will be available.
+    </p>
+    <img src="images/flowchart.jpeg" alt="Flowchart" width="700" height="500" class="image1">
+
+    <div class="image-container">
+        <img src="images/rogic1.jpeg" alt="Robot Image 1" class="image1">
+        <img src="images/rogic2.jpeg" alt="Robot Image 2" class="image1">
+        <img src="images/rogic3.jpeg" alt="Robot Image 3" class="image1">
+    </div>
+
+    <h3 class="chuchito"> Our robot: </h3>
+    <img src="images/robot.jpeg" alt="Robot Image" width="700" height="500" class="image1">
+
+    <h3 class="videorobo"> Video: </h3>
+    <iframe src="https://uanledu-my.sharepoint.com/personal/andrea_garciax_uanl_edu_mx/_layouts/15/embed.aspx?UniqueId=9dfa060c-e17b-43d3-919c-e205554aa250&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" 
+    width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="videorob.mp4">
+</iframe>
+
+
+<h2 id="Journey"> Journey </h2>
+<p class="talk">
+    Due to the weather in the last stage, we did not have enough time to do the activities, <br>
+    so unfortunately this section will not contain anything. </p>
+
+<h2 id="conclusions"> Conclusions </h2>
+<img src="images/yo.jpeg" alt="team" class="image1">
+<p class="talk"> <strong> Andrea Mayte Garcia: </strong> <br>
+    Doing this project was very useful for me to learn about the muscular system, its <br>
+    components and its health problems. I would like to make our prototype possible in <br>
+    the future because I think it would be very useful for athletes when they get a cramp. <br>
+     I loved working with this project all semester and even more when we were configuring the robots <br>
+     I think I was very entertained by this PIA activity.
+    </p>
+
+<img src="images/larissa.jpeg" alt="team" class="image1"> 
+     <p class="talk">
+    <strong> Larissa Emireth Antopia Ramos: </strong> <br>
+    Throughout the semester, working on our project was a challenging but very interesting experience. <br>
+    From developing the idea, creating the drawing, and especially programming the robot to complete the <br>
+    different routes, it was a very enriching process. This activity not only tested our creativity but also <br>
+    helped us reinforce many of the concepts we had learned in class. Although we faced some difficulties during <br>
+    the robots programming, such as time management and the arrangement of certain components, I believe the entire <br>
+     process was a great opportunity to learn, especially from our mistakes. In this final phase of the PIA, I was also <br>
+     able to recall some concepts from the first semester, particularly thanks to the Khan Academy activities. All of this <br>
+     motivated me to continue strengthening those skills so I can keep applying them in the future. <br>
+     </p>
+
+     <img src="images/diego.jpeg" alt="team" class="image1">
+<p class="talk"> <strong> Diego Ivan Romero Jacobo: </strong> <br>
+    While creating this web page, I was able to apply several concepts and skills that we acquired throughout the semester. <br>
+    This allowed me to develop the project more effectively and with greater confidence. In particular, we made use of HTML, a <br>
+    language we learned during the final stage of the course. Understanding how to structure and build a web page using HTML was <br>
+     essential for completing this task, this project is especially important because it helped us strengthen valuable skills that <br>
+     will be useful in the future. As technology continues to evolve, it is likely that at some point we will be required to create or <br>
+     modify a web page, whether for professional or personal use. It's fascinating to realize how a series of lines of code can be <br>
+     transformed into a fully functional and visually appealing web page available on the internet, horeover, this experience has <br>
+     deepened my appreciation for web development and the logic behind coding. It not only challenged us to think critically <br> and solve 
+     problems, but also sparked creativity as we designed the layout and features of the page. Overall, it was a rewarding learning experience <br>
+      that demonstrated the real-world application of what weve studied.
+      </p>
+
+        <img src="images/melanie.jpeg" alt="team" class="image1">
+      <p class="talk"> <strong> Melanie Alejandra Hernandez Reynaga </strong> <br>
+        During the realization of this integrative learning product, I had the opportunity to apply much of what I learned during the semester <br>
+         in the creation of a web page focused on the muscular system, its organs, major diseases, as well as the development of programming to <br>
+         make our robot perform certain functions to relieve or treat a problem of this system, mainly cramps and muscle aches, I really <br>
+          found this part very interesting, as I could apply what I learned at different stages of the semester, as programming <br>
+          applied to robotics, sequential programming structures, cyclic and conditional. In addition, I also learned a little <br>
+           more about HTML concepts to build the web page, adding text, images and visual styles. This project helped me to <br>
+           reinforce my knowledge, to better develop the subject of programming, and even provided me with other knowledge <br>
+            about the muscular system, such as the various diseases that can be suffered, as well as the most common treatments.</p>
+
+<h2 id="Team"> Team </h2>
+<p class="team4"> we are the team 4 </p>
+
+<table>
+    <thead>
+        <tr>
+            <th> Names </th>
+            <th> ID </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Andrea Mayte Garcia</td>
+            <td> 2229267 </td>
+        </tr>
+        <tr>
+            <td> Larissa Emireth Antopia Ramos </td>
+            <td> 2229720 </td>
+        </tr>
+        <tr>
+            <td> Melanie Alejandra Hernandez Reynaga </td>
+            <td> 229857 </td>
+        </tr>
+        <tr>
+            <td> Diego Ivan Romero Jacobo </td>
+            <td> 2229897 </td>
+        </tr>
+    </tbody>
+</table>
+
+<h3 class="group"> Group 218  </h3>
+
+<img src="images/robotica.jpeg" alt="team" class="image1">
+
+<h2> Siu </h2>
+
+<footer class="footer">
+    <p>&copy; 2025 Team 4, Group 218. All rights reserved.</p>
+</footer>
+
+
+
+</body>
+</html>
